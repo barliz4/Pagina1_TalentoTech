@@ -1,0 +1,65 @@
+body {
+    background-color: rgba(0, 0, 0, 0.76);
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+a {
+    text-decoration:none;  
+    color:rgb(91, 223, 59)  ;
+
+}
+
+h1 {
+ font-size: 36px;
+ text-align: center;
+ color: rgb(255, 255, 255)  ;   
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+    font-size: 27px;
+    text-align: left;
+    color: rgba(255, 224, 224, 0.699);
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    text-align: left;
+    color: rgb(255, 255, 255);
+}
+
+.clase1 {
+    color: rgb(255, 255, 255);
+}
+
+.clase2 {
+    color: rgb(255, 255, 255);
+}
+
+#parrafo1 {
+    align-items: right;
+    font-size: large;
+    color: rgb(245, 245, 245);
+}
+
+button {
+    color:blanchedalmond;
+    background-color: rgba(0, 0, 0, 0.671);
+    font-size: 17px;
+    padding: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#seccion1 {
+    width: 1000px;
+    height: 100px;
+    margin: 2px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.483);
+    border: 2px double rgb(255, 255, 255);
+}
+

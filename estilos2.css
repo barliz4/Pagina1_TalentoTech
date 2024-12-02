@@ -1,0 +1,78 @@
+body {
+    background-color: rgba(0, 0, 0, 0.76);
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;        /*tamaño del texto*/
+    text-align: center;
+}
+
+a {
+    text-decoration: none;          /*eliminar subrayado*/
+    color:rgb(91, 223, 59)  ;
+}
+
+.SantiagoTitulo {
+    text-align: center;
+    font-size: 40px;            /*tamaño del texto*/
+    color: rgb(255, 255, 255);
+}
+
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+h3 {
+    font-size: 26px;
+    text-align: left;
+    color: rgb(255, 255, 255);
+}
+
+p {
+    text-align: left;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+button {
+    color:blanchedalmond;
+    background-color: rgba(0, 0, 0, 0.671);
+    font-size: 17px;
+    padding: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+}
+
+#seccion1 {
+    width: auto;
+    height: auto;
+    margin: 2px;
+    padding: 20px;
+    background-color:  rgba(0, 0, 0, 0.483);
+    border: 2px double rgb(255, 255, 255);
+}
+
+.item {
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.contenedor2 {
+    display: flex;
+    justify-content: center;
+}
+
+#seccion2 {
+    width: auto;
+    height: 130px;
+    margin: 2px;
+    padding: 20px;
+    background-color:  rgba(255, 0, 0, 0.483);
+    border: 2px double rgb(255, 255, 255);
+}
