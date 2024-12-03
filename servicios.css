@@ -63,3 +63,9 @@ button {
     border: 2px double rgb(255, 255, 255);
 }
 
+@media (max-width: 660px) {
+
+    .contenedor {
+        flex-direction: column;
+    }
+}

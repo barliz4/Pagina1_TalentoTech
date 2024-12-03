@@ -5,9 +5,29 @@ body {
     text-align: center;
 }
 
+
+table {
+        width: 100%;
+        border-collapse: collapse;
+}
+    th, td {
+        padding: 10px;
+        border: 2px solid #000000;      /*Color borde de la tabla*/
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color:rgb(0, 0, 0);
+
+    }
+    th {
+        background-color: #ffd900;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+            
+
 a {
-    text-decoration: none;          /*eliminar subrayado*/
-    color:rgb(91, 223, 59)  ;
+    text-decoration:underline;          /*eliminar subrayado*/
+    color:rgb(255, 255, 255)  ;
 }
 
 .SantiagoTitulo {
@@ -20,24 +40,24 @@ a {
 h2 {
     font-size: 30px;
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: #ffd900;
 }
 
 h3 {
     font-size: 26px;
     text-align: left;
-    color: rgb(255, 255, 255);
+    color: #ffd900;
 }
 
 p {
     text-align: left;
     font-size: 20px;
-    color: rgb(255, 255, 255);
+    color: #ffd900;
 }
 
 button {
-    color:blanchedalmond;
-    background-color: rgba(0, 0, 0, 0.671);
+    color: #ffd900;
+    background-color: #000000;  /*color interno del boton*/
     font-size: 17px;
     padding: 8px;
     border-radius: 10px;
@@ -45,8 +65,8 @@ button {
 }
 
 .contenedor {
-    display: flex;
-    justify-content: center;
+    display:contents;
+    justify-content:center;
 }
 
 #seccion1 {
@@ -54,18 +74,18 @@ button {
     height: auto;
     margin: 2px;
     padding: 20px;
-    background-color:  rgba(0, 0, 0, 0.483);
-    border: 2px double rgb(255, 255, 255);
+    background-color:  #ffd9008c;
+    border: 2px double rgb(0, 0, 0);
 }
 
 .item {
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: #000000;
 }
 
 .contenedor2 {
-    display: flex;
-    justify-content: center;
+    display:contents;
+    justify-content: right;
 }
 
 #seccion2 {
@@ -73,6 +93,6 @@ button {
     height: 130px;
     margin: 2px;
     padding: 20px;
-    background-color:  rgba(255, 0, 0, 0.483);
-    border: 2px double rgb(255, 255, 255);
+    background-color:  #ffd9008c;
+    border: 2px double rgb(0, 0, 0);
 }
