@@ -1,12 +1,12 @@
 body {
-    background-color: rgb(68, 62, 62);
+    background-color: rgb(46, 39, 39);
 }
 
 .contenedor_links {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 18px;
     text-align: center;
-    background-color: rgba(115, 255, 0, 0.397);
+    background-color: rgb(195, 214, 87);
 }
 
 h1 {
@@ -22,7 +22,7 @@ p {
 }
 
 .contenedor_botones {
-    background-color: rgb(46, 46, 53);
+    background-color: rgb(179, 255, 0);
     padding: 12px;
     text-align: center;    
     gap: 89px;
@@ -31,7 +31,7 @@ p {
 
 .btn {
     font-size: 18px;
-    color: rgb(76, 0, 255);       /*Color letra del boton*/
+    color: rgb(0, 0, 0);       /*Color letra del boton*/
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border-radius: 4px;
     cursor: pointer;
@@ -43,10 +43,37 @@ p {
   justify-content: center;
   align-items: center; 
   height: 260px;
-  background-color: brown
 }
 
 .imagen_1 {
     height: 200px;
     width: 200px;    
 }
+
+#contact {
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction:column;
+}
+
+form label {
+    margin-bottom: 9px;
+}
+
+form input, form textarea {
+    margin-bottom: 8px;
+    padding: 8px;
+    font-size: 12px;
+}
+
+form input [type="submit"] {
+    background-color:black;
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+}
+
+
